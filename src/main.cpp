@@ -1,7 +1,7 @@
 //--- 2022-2023 Fall Semester Data Structure Assignment 2 ---//
 //--------------------------//
-//---Name & Surname:
-//---Student Number:
+//---Name & Surname:Aydan Günaydın
+//---Student Number:150200012
 //--------------------------//
 
 //-------------Do Not Add New Libraries-------------//
@@ -21,6 +21,7 @@ void mainMenu();
 
 //-------------Do Not Change or Add Anything in Main-------------//
 int main(int argc, char* argv[]){
+
 	system("clear");
 
     int mainMenuChoice;
@@ -64,7 +65,7 @@ int main(int argc, char* argv[]){
             cin >> encodedBinaryPassword;
             cout << "Enter the encoded password value: ";
             cin >> encodedValPassword;
-            newHuffman.decodePassword(encodedValPassword,encodedBinaryPassword);
+            newHuffman.decodePassword(encodedBinaryPassword, encodedValPassword);
             newHuffman.printDecodedPassword();
             
             break;
@@ -92,5 +93,6 @@ void mainMenu(){
     cout << "7. Exit" << endl;
     cout << endl;
     cout << "Choice: ";
+
 };
 //-----------------------------------------------------//

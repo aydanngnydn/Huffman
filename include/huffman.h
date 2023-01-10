@@ -1,7 +1,7 @@
 //--- 2022-2023 Fall Semester Data Structure Assignment 2 ---//
 //--------------------------//
-//---Name & Surname:
-//---Student Number:
+//---Name & Surname:Aydan Günaydın
+//---Student Number:150200012
 //--------------------------//
 
 #ifndef _huffman
@@ -29,7 +29,6 @@ class Huffman{
 
         PriorityQueue queue;
 
-        Tree huffmanTree;
 
         string encodedBinaryPassword;
         string encodedValPassword;
@@ -37,6 +36,7 @@ class Huffman{
         string decodedPassword;
         
     public:
+        Tree huffmanTree;
         void readKey(const char*);
         void sortKey();
 

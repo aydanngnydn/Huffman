@@ -1,7 +1,7 @@
 //--- 2022-2023 Fall Semester Data Structure Assignment 2 ---//
 //--------------------------//
-//---Name & Surname:
-//---Student Number:
+//---Name & Surname:Aydan Günaydın
+//---Student Number:150200012
 //--------------------------//
 
 #ifndef _structs
